@@ -10,6 +10,14 @@
   background-attachment: fixed,			fixed,				fixed;;
 
 }
+body {
+display: flex;
+flex-direction: column;
+min-height 100vh;
+}
+.grow{
+flex-grow: 1;
+}
 
 @keyframes gradient-animation {
     0% {
@@ -31,7 +39,7 @@
     width: 100%;
     height: 28px;
     border-top: 1px solid #E0E0E0;
-    position: fixed;
+
     bottom: 0px; 
     left: 0px; 
     text-align: center; 
